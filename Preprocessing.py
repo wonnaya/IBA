@@ -20,7 +20,7 @@ from wordcloud import WordCloud
 # 페이지 설정
 # ============================================================
 st.set_page_config(
-    page_title="학술 문서 전처리 시스템",
+    page_title="Document Preprocessing",
     page_icon="📄",
     layout="wide",
 )
