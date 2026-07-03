@@ -2,7 +2,7 @@ streamlit
 pandas
 pdfplumber
 python-docx
-spacy
+spacy>=3.7,<3.8
 kiwipiepy
 koreanize_matplotlib
 matplotlib
