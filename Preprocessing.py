@@ -435,7 +435,7 @@ with st.sidebar:
 # ============================================================
 # 메인 — 대시보드 요약
 # ============================================================
-st.title("📄Document Preprocessing")
+st.title("📄문서 전처리")
 
 meta = pd.read_csv(META_CSV, encoding='utf-8-sig')
 total = len(meta)
