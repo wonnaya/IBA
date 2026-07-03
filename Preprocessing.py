@@ -394,7 +394,7 @@ with st.sidebar:
     st.header("문서 입력")
 
     uploaded_files = st.file_uploader(
-        "PDF 파일 (여러 개 가능)", type="pdf", accept_multiple_files=True)
+        "PDF 파일", type="pdf", accept_multiple_files=True)
     doc_type    = st.selectbox("문서 유형", ["report", "essay"])
     author_type = st.selectbox("작성자 유형", ["human", "AI"])
 
@@ -435,7 +435,7 @@ with st.sidebar:
 # ============================================================
 # 메인 — 대시보드 요약
 # ============================================================
-st.title("학술 문서 전처리 시스템")
+st.title("📄Document Preprocessing")
 
 meta = pd.read_csv(META_CSV, encoding='utf-8-sig')
 total = len(meta)
